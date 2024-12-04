@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(70, 70, 107);
+}
+
+.container{
+  display: flex;
+  padding-left: 90px;  
+}
+.container h1{
+    width: 700px;
+    background: white;
+    margin: 50px;
+    margin-left: 200px;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.container1{
+    display: flex;
+    padding-left: 90px;  
+  }
+  .container1 h2{
+      width: 700px;
+      background: white;
+      margin: 50px;
+      margin-left: 200px;
+      padding: 50px;
+      border-radius: 20px;
+      text-align: center;
+  }
+
+  .container2{
+    display: flex;
+    padding-left: 90px;  
+  }
+  .container2 h3{
+      width: 700px;
+      background: white;
+      margin: 50px;
+      margin-left: 200px;
+      padding: 50px;
+      border-radius: 20px;
+      text-align: center;
+  }

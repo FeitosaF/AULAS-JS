@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    background: salmon;
+    font-size: 1.6rem;
+    line-height: 1.5em;
+}
+
+h1{
+display: flex;
+justify-content: center;
+}
+.secao{
+    max-width: 640px;
+    margin: 50px auto;   
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+form input{
+    font-size: 24px;
+    height: 40px;
+}
+form input:focus{
+    outline: 1px solid salmon
+}
+form button{
+    background: salmon;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700px;
+    height: 40px;
+    border: none;
+    margin-top: 30px;
+}
+form button:hover{
+    background: rgb(195, 72, 59);
+}
+
+.sucesso{
+    background: rgb(141, 239, 141);
+    padding: 10px 20px;
+    text-align: center;
+    }
+    
+.erro{
+        background: rgb(246, 125, 125);
+        padding: 10px 20px;
+        text-align: center;
+    }
